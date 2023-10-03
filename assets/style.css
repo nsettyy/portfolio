@@ -44,7 +44,8 @@ main {
     align-items: start;
     color: var(--text-dark);
     font-family: var(--font);
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 20px;
 }
 
 main section ul {
@@ -75,8 +76,15 @@ aside h1 {
     min-height: calc(100vh - 140px);
 }
 
+#headshot {
+    max-height: 50%;
+    max-width: 50%;
+    float: right;
+    margin: 20px;
+}
+
 #about-me{
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
 #my-work {
