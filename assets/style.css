@@ -33,8 +33,9 @@ header div ul {
     font-size: 30px;
 }
 
-header div ul li {
+header div ul li a {
     padding: 10px;
+    text-decoration: none;
 }
 
 main {
