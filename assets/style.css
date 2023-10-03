@@ -105,14 +105,25 @@ aside h1 {
     padding: 20px;
 }
 
-.other-images {
+/* .other-images {
     flex: 1;
     max-width: 50%;
     padding: 20px;
-}
+} */
 
 #prework-study-guide-image {
+    flex: 1;
     max-width: 100%;
+}
+
+#refactoring-seo-image {
+    flex: 1;
+    max-width: 40%;
+}
+
+#placeholder-image-1 {
+    flex: 1;
+    max-width: 40%;
 }
 
 #about-me{
@@ -120,5 +131,5 @@ aside h1 {
 }
 
 #my-work {
-    margin-bottom: 1400%;
+    margin-bottom: 600%;
 }
