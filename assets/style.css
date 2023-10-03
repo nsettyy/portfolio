@@ -49,8 +49,17 @@ main {
     margin-left: 20px;
 }
 
+main section p {
+    padding: 10px;
+}
+
 main section ul {
     list-style: none;
+    display: flex;
+}
+
+main section ul li {
+    padding: 20px;
 }
 
 aside {
@@ -86,13 +95,13 @@ aside h1 {
 
 #section-1 {
     display: flex;
-    justify-content: start;
+    padding: 20px;
 }
 
 .work-images {
     display: flex;
     flex-wrap: wrap;
-    max-width: 80%;
+    max-width: 100%;
     padding: 20px;
 }
 
@@ -107,11 +116,11 @@ aside h1 {
 }
 
 #about-me{
-    margin-bottom: 500px;
+    margin-bottom: 400%;
 }
 
 #my-work {
-    margin-bottom: 400px;
+    margin-bottom: 1200%;
 }
 
 #contact-me {
