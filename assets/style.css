@@ -1,129 +1,74 @@
-:root {
-    --text-light: rgb(220, 216, 216);
-    --text-dark: rgb(42, 41, 41);
-    --background: rgb(104, 175, 104);
-    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 body {
     min-height: 100vh;
-    background-color: rgb(220, 219, 219);
 }
 
 header {
-    background-color: var(--background);
-    border-bottom: solid 10px black;
-}
-
-header h1 {
-    color: var(--text-dark);
-    font-family: var(--font);
-    margin: 10px;
-    font-size: 50px;
-    padding: 10px;
-}
-
-header div ul {
+    height: 100px;
+    background-color: rgb(64, 99, 64);
     display: flex;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
     justify-content: end;
-    color: var(--text-dark);
-    font-family: var(--font);
     list-style: none;
-    text-decoration: overline;
-    font-size: 30px;
 }
 
-header div ul li a {
-    padding: 10px;
-    text-decoration: none;
-}
-
-main {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: start;
-    color: var(--text-dark);
-    font-family: var(--font);
-    font-size: 25px;
-    margin-left: 20px;
-}
-
-main section p {
-    padding: 10px;
-}
-
-main section ul {
-    list-style: none;
-    display: flex;
-}
-
-main section ul li {
+header ul li {
     padding: 20px;
 }
 
-aside {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    min-width: 20%;
-    min-height: 100%;
-    background-color: var(--background);
+div h1 {
+    padding: 20px;
 }
 
-aside h1 {
-    color: var(--text-dark);
-    font-family: var(--font);
-    margin: 10px;
-    font-size: 30px;
-    padding: 10px;
-    border-left: solid 10px var(--text-dark);
+div p {
+    padding: 20px;
+}
+
+div h2 {
+    padding: 20px;
 }
 
 .main-container {
+    min-height: calc(100vh - 100px);
+}
+
+.row {
     display: flex;
-    min-height: calc(100vh - 140px);
+}
+
+.column {
+    flex: 1;
+    background-color: gray;
+}
+
+.work {
+    height: 300px;
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 #headshot {
-    display: flex;
-    max-height: 50%;
-    max-width: 50%;
-    float: right;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+}
+
+#main-work {
+    height: 500px;
+    width: 700px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+#contact {
     margin: 20px;
-}
-
-#section-1 {
-    display: flex;
-    padding: 20px;
-}
-
-.work-images {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    padding: 20px;
-}
-
-#prework-study-guide-image {
-    flex: 1;
-    max-width: 100%;
-}
-
-#refactoring-seo-image {
-    flex: 1;
-    max-width: 40%;
-}
-
-#placeholder-image-1 {
-    flex: 1;
-    max-width: 40%;
-}
-
-#about-me{
-    margin-bottom: 400%;
-}
-
-#my-work {
-    margin-bottom: 600%;
 }
